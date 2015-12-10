@@ -1,0 +1,23 @@
+{
+  "name": "webpack-plugin-flow",
+  "version": "1.0.0",
+  "description": "Runs flow check before webpack compile or watch",
+  "main": "lib/plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flow",
+    "webpack",
+    "flowtype"
+  ],
+  "author": "Sergey Tatarintsev <sergey.tatarintsev@researchgate.net> (https://github.com/SevInf)",
+  "license": "MIT",
+  "peerDependencies": {
+    "flow-bin": "*",
+    "webpack": "^1.12.9"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.19.1"
+  }
+}
