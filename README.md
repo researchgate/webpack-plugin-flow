@@ -13,8 +13,8 @@ var FlowCheck = require('webpack-plugin-flow');
 ...
 
 module.exports = {
-...
-plugins: [ new FlowCheck() ]
+    ...
+    plugins: [ new FlowCheck() ]
 }
 
 ```
